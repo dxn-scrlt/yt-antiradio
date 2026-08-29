@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YT AntiRadio",
+  "version": "0.1.0",
+  "description": "Radio queue disabler browser extension",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ]
+}
